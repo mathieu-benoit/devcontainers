@@ -6,7 +6,7 @@ Different examples of [Devcontainers](https://containers.dev/):
 - [Node.js & Typescript](.devcontainer/node)
 - [Node.js & Typescript (Dockerfile)](.devcontainer/node-dockerfile)
 - [Node.js & Typescript (Compose)](.devcontainer/node-compose)
-- [DHI Node.js & Typescript (Compose)](.devcontainer/dhi-node) --> not working yet
+- [DHI Node.js & Typescript (Compose)](.devcontainer/dhi-node)
 - [Docker (Compose)](.devcontainer/docker)
 - [Docker & Docker Model Runner (DMR) (Compose)](.devcontainer/docker-ai)
 - [Docker & Kubernetes (Compose)](.devcontainer/docker-k8s)
