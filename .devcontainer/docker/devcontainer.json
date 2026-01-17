@@ -1,0 +1,20 @@
+{
+    "name": "Docker",
+    "dockerComposeFile": "compose.yaml",
+    "service": "workspace",
+    "workspaceFolder": "/workspace",
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {
+			"moby": true,
+			"version": "latest"
+		}
+	},
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-containers",
+				"docker.docker"
+            ]
+        }
+    }
+}
