@@ -1,0 +1,15 @@
+{
+    "name": "Node.js & TypeScript (Compose)",
+    "dockerComposeFile": "compose.yaml",
+    "service": "workspace",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "orta.vscode-jest"
+            ]
+        }
+    }
+}
