@@ -1,5 +1,5 @@
 {
-    "name": "Docker & Kubernetes",
+    "name": "Node.js & TypeScript with Docker & Kubernetes",
     "dockerComposeFile": "compose.yaml",
     "service": "workspace",
     "workspaceFolder": "/workspace",
