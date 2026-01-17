@@ -1,0 +1,11 @@
+{
+    "name": "Node.js & TypeScript (DHI)",
+    "dockerComposeFile": "compose.yaml",
+    "service": "workspace",
+    "workspaceFolder": "/workspace",
+	"containerEnv": {
+		"DOCKER_USERNAME": "${localEnv:DOCKER_USERNAME}",
+		"DOCKER_PASSWORD": "${localEnv:DOCKER_PASSWORD}"
+	}
+	//"initializeCommand": "echo ${DOCKER_PASSWORD} | docker login -u ${DOCKER_USERNAME} --password-stdin",
+}
