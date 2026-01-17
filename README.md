@@ -2,14 +2,13 @@
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/mathieu-benoit/devcontainers)
 
-Different of examples of Devcontainers:
-- Node.js & Typescript
-- Node.js & Typescript (Dockerfile)
-- Node.js & Typescript (Compose)
-- Node.js & Typescript (dhi.io) --> not working yet
-- Docker & Kubernetes (Compose)
-- Node.js & TypeScript with Docker & Kubernetes (Compose)
-
+Different examples of [Devcontainers](https://containers.dev/):
+- [Node.js & Typescript](.devcontainer/node)
+- [Node.js & Typescript (Dockerfile)](.devcontainer/node-dockerfile)
+- [Node.js & Typescript (Compose)](.devcontainer/node-compose)
+- [DHI Node.js & Typescript (Compose)](.devcontainer/dhi-node) --> not working yet
+- [Docker & Kubernetes (Compose)](.devcontainer/docker-k8s)
+- [Node.js & TypeScript with Docker & Kubernetes (Compose)](.devcontainer/node-with-docker-k8s)
 
 More:
 - [Streamlining Local Development with Dev Containers and Testcontainers Cloud](https://www.docker.com/blog/streamlining-local-development-with-dev-containers-and-testcontainers-cloud/)
