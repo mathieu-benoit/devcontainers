@@ -4,3 +4,5 @@ FROM dhi.io/node:22-debian13-sfw-dev
 RUN apt-get update \
     && apt-get install -y gzip \
     && ldconfig
+
+USER nonroot
