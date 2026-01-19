@@ -3,6 +3,7 @@
     "dockerComposeFile": "compose.yaml",
     "service": "workspace",
     "workspaceFolder": "/workspace",
+	"remoteUser": "nonroot",
 	"containerEnv": {
 		"DOCKER_USERNAME": "${localEnv:DOCKER_USERNAME}",
 		"DOCKER_PASSWORD": "${localEnv:DOCKER_PASSWORD}"
