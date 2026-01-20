@@ -5,7 +5,6 @@
     "workspaceFolder": "/workspace",
 	"remoteUser": "node",
 	"containerEnv": {
-		"SHELL": "/bin/bash",
 		"DOCKER_USERNAME": "${localEnv:DOCKER_USERNAME}",
 		"DOCKER_PASSWORD": "${localEnv:DOCKER_PASSWORD}"
 	}
