@@ -1,9 +1,9 @@
 FROM dhi.io/node:22-debian13-sfw-dev
 
-RUN apt-get update 
+RUN apt-get update \
     && apt-get install -y \
         # gzip is needed by devcontainer to start.
-        gzip \ 
+        gzip \
     # Rebuild ldconfig cache for VS Code server compatibility.
     && ldconfig 
 
