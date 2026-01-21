@@ -1,5 +1,5 @@
 {
-    "name": "Node.js & TypeScript (DHI)",
+    "name": "Node.js (DHI)",
     "dockerComposeFile": "compose.yaml",
     "service": "workspace",
     "workspaceFolder": "/workspace",

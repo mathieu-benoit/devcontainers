@@ -1,5 +1,5 @@
 {
-    "name": "Node.js & TypeScript (Compose)",
+    "name": "Node.js (Compose)",
     "dockerComposeFile": "compose.yaml",
     "service": "workspace",
     "workspaceFolder": "/workspace",

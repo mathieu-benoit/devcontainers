@@ -1,5 +1,5 @@
 {
-    "name": "Node.js & TypeScript",
+    "name": "Node.js",
     "image": "mcr.microsoft.com/devcontainers/javascript-node:24-trixie",
     "customizations": {
         "vscode": {
