@@ -1,5 +1,5 @@
 {
-    "name": "Node.js (DHI-debian)",
+    "name": "Node.js (DHI-alpine)",
     "dockerComposeFile": "compose.yaml",
     "service": "workspace",
     "workspaceFolder": "/workspace",
